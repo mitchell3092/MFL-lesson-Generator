@@ -23,7 +23,7 @@ if st.button("Generate Prompt"):
         prompt = (
             f"Create a [{output_type}] for [{language}], aimed at {year} students "
             f"following the [{exam_board}] curriculum.\n"
-            f"Topic: ["{topic}"]\n"
+            f"Topic: [\"{topic}\"]\n"
             f"Thematic Focus: [{' / '.join(focus)}]\n"
             f"Please include scaffolded tasks for mixed-ability learners, challenge options, "
             f"visual elements (illustrations, colour), and interactive features "

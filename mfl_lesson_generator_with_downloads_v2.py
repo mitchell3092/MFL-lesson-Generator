@@ -75,6 +75,3 @@ if st.button("Generate Resources"):
 
         pptx_data = generate_pptx(topic, language, year, exam_board, focus)
         st.download_button("Download Presentation (.pptx)", pptx_data, file_name="lesson.pptx")
-        streamlit
-python-docx
-python-pptx
